@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Tai+Viet&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tagesschrift&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans Tai Viet", sans-serif;
+}
+.firstINTRO{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.367)), url(./878.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.firstINTRO li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+}
+.firstINTRO li a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+.firstINTRO .content{
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-45%);
+    text-align: center;
+}
+.firstINTRO .content h1{
+    color: white;
+    font-size: 35px;
+}
+.firstINTRO .content p{
+    color: red;
+    font-size: 20px;
+}
+.buttons button{
+    width: 200px;
+    padding: 15px 0px;
+    margin: 20px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 1px solid red;
+    color: black;
+}
+.buttons button:hover{
+    border: 1px solid red;
+    background-color: rgb(255, 204, 0);
+    color: white;
+    border-top-right-radius: 0px;
+    transition: all 0.5s;
+    transform: scale(1.02);
+}
+.second-cards{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.337), black), url(https://wallpapercat.com/w/full/4/3/b/2325227-3840x2160-desktop-4k-porsche-911-gt3-rs-background-image.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.second-cards .card{
+    border: 1px solid white;
+    width: 400px;
+    height: 500px;
+}
+.card .card-heder{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card .card-header h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.card .card-header p{
+    display: none;
+    color: white;
+    padding: 30px;
+}
+.card .card-body{
+     width: 100%;
+     height: 40%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
+     }
+     .card .card-body button{
+         width: 150px;
+         cursor: pointer;
+         padding: 15px;
+         border-radius: 20px;
+         background: linear-gradient(90deg, rgba(255, 0, 0, 0.648) yellow);
+}
+.card :hover h1{
+    display: none;
+}
+.card :hover p{
+    display: block;
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid white; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: blue;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+  }
